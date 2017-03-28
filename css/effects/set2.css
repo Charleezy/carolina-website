@@ -69,16 +69,41 @@
 .grid figure figcaption > p.hover-text {
     display: none;
     text-align: center;
-	margin-top: 40%;
     font-size: 36px;
     color: white;
     font-family: 'Rosario', sans-serif; 
     font-weight: bold;
 }
 
+.grid figure figcaption#first-image > p.hover-text {
+	margin-top: 40%;
+}
+
+.grid figure figcaption#second-image > p.hover-text {
+	margin-top: 55%;
+}
+
+.grid figure figcaption#third-image > p.hover-text {
+	margin-top: 25%;
+}
+
+.grid figure figcaption#fourth-image > p.hover-text {
+	margin-top: 40%;
+}
+
+.grid figure figcaption#fifth-image > p.hover-text {
+	margin-top: 25%;
+}
+
 .grid figure figcaption > h2 {
     font-family: 'Rosario', sans-serif; 
     font-weight: bold;
+    font-size: 36px;
+}
+
+.grid figure figcaption > p {
+    font-family: 'Rosario', sans-serif; 
+    font-size: 24px;
 }
 
 .grid figure figcaption > h2 {
@@ -89,8 +114,28 @@
     display: block;
 }
 
+.grid figure figcaption > h2:hover, p:hover {
+    display: none;
+}
+
 .grid figure figcaption#first-image h2{
-    margin-top: 65%;
+    margin-top: 60%;
+}
+
+.grid figure figcaption#second-image h2{
+    margin-top: 100%;
+}
+
+.grid figure figcaption#third-image h2{
+    margin-top: 40%;
+}
+
+.grid figure figcaption#fourth-image h2{
+    margin-top: 70%;
+}
+
+.grid figure figcaption#fifth-image h2{
+    margin-top: 35%;
 }
 
 .grid figure figcaption header a{}
@@ -204,10 +249,11 @@ figure.effect-oscar {
 
 	background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);*/
 
-	background-color:#fb5353;
+	background-color:#a6a8ab;
 
 }
 
+figure.effect-oscar:hover { opacity: .8; }
 
 
 figure.effect-oscar img {
