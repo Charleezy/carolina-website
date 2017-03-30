@@ -119,11 +119,11 @@
 }
 
 .grid figure figcaption#first-image h2{
-    margin-top: 60%;
+    margin-top: 65%;
 }
 
 .grid figure figcaption#second-image h2{
-    margin-top: 100%;
+    margin-top: 90%;
 }
 
 .grid figure figcaption#third-image h2{
@@ -131,11 +131,11 @@
 }
 
 .grid figure figcaption#fourth-image h2{
-    margin-top: 70%;
+    margin-top: 35%;
 }
 
 .grid figure figcaption#fifth-image h2{
-    margin-top: 35%;
+    margin-top: 65%;
 }
 
 .grid figure figcaption header a{}
@@ -270,7 +270,7 @@ figure.effect-oscar img {
 
 figure.effect-oscar figcaption {
 
-	padding: 4em;
+	padding: 2em;
 
 	background-color: rgba(58,52,42,0);
 

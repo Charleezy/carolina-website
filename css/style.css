@@ -163,7 +163,7 @@ a:focus, img:focus, button:focus, .btn:focus {outline: none;}
 
 ::selection {background-color: #fb5353;color: #fff;text-shadow: none;}
 
-@font-face {font-family: 'Open Sans', sans-serif;}
+@font-face {font-family: 'Rosario', sans-serif;}
 
 /*===== Header ===*/
 
@@ -221,13 +221,16 @@ main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { padding-bottom:
 
 main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main-inner-wrapper"] article[role="pge-title-content"]{ }
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ padding-bottom:19px; padding-top:83px}
+main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ padding-bottom:19px; padding-top:43px}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:40px; line-height:53px; color:#404040; font-family: 'Rosario', sans-serif; font-weight: bold;}
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:40px; line-height:53px; color:black; font-family: 'Rosario', sans-serif; font-weight: bold;}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:64px; color:#ff416B; padding-bottom: 3px; font-family: 'Rosario', sans-serif; font-weight: bold;}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"] article[role="pge-title-content"] p{ font-size:30px; line-height:39px; color:#4A4A4A; font-family: 'Rosario', sans-serif;}
+main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"]  p{ font-size:24px; line-height:39px; color:#4A4A4A; font-family: 'Rosario', sans-serif;}
+
+#fun-facts {padding-left: 15px; font-size: 30px; color: #FF416B; font-weight: bold;}
+.fun-fact {padding-left: 15px;}
 
 /*===== footer ===*/
 
@@ -299,13 +302,19 @@ section.blog-content:hover figure img{ opacity:0.5}
 
 /*===== Contact ===*/
 
-article[role="pge-title-content"].contact-header{ padding-bottom:218px}
+div.contat-from-wrapper > p {margin-bottom: 80px; font-family: 'Rosario', sans-serif; font-size: 40px; color: black;}
+
+i.fa.fa-envelope-o.contact-icon, i.fa.fa-map-marker.contact-icon {float: left; font-size:30px; margin-bottom: 10px; }
+
+p#email-text, p#location-text{margin-left:50px; font-size: 40px; color: black; font-weight: normal;}
+
+article[role="pge-title-content"].contact-header{ padding-bottom:20px}
 
 article[role="pge-title-content"].contact-header p a{ color:#343434; padding-right:34px}
 
 article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-decoration:none}
 
-.demo-wrapper {width: 100%;margin: 0 auto;height:499px;}
+.contact-wrapper {width: 100%;margin: 0 auto;height:200px;}
 
 #surabaya {width: 100%;height: 100%;}
 
@@ -313,9 +322,9 @@ article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-d
 
 #success_page h3,#success_page p{color:#60ca6f }
 
-.contat-from-wrapper{ padding:0 69px; margin-top:108px}
+.contat-from-wrapper{ padding:0 15px 0 15px; margin-top:58px}
 
-.contat-from-wrapper input[type="text"],.contat-from-wrapper input[type="email"],.contat-from-wrapper textarea{ width:100%; display:block; outline:none; border-bottom:1px solid #bbbbbb; background-color:inherit; color:#404040; font-size:21px; line-height:23px; padding-bottom:24px}
+.contat-from-wrapper input[type="text"],.contat-from-wrapper input[type="email"],.contat-from-wrapper textarea{ width:100%; display:block; outline:none; border-bottom:1px solid #bbbbbb; background-color:inherit; color:#404040; font-size:30px; line-height:32px; padding-bottom:33px}
 
 .contat-from-wrapper input[type="text"]:focus,.contat-from-wrapper input[type="email"]:focus,.contat-from-wrapper textarea:focus{ border-bottom-color:#9f9e9e}
 
