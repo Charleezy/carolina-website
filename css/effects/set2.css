@@ -114,7 +114,7 @@
     display: block;
 }
 
-.grid figure figcaption > h2:hover, p:hover {
+.grid figure figcaption > h2:hover, .grid figure figcaption > p:hover {
     display: none;
 }
 
