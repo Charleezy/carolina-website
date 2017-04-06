@@ -28,35 +28,20 @@ $(document).ready(function() {
 
 		
 
-		cssmenu.prepend('<div id="menu-button"><img id="menu" src="images/menu.png"/>' + settings.title + '</div>');
+		cssmenu.prepend('<div id="menu-button"><span></span><span></span><span></span>' + settings.title + '</div>');
 
 		$(this).find("#menu-button").on('click', function(){
-
 		  $(this).toggleClass('menu-opened');
-
 		  var mainmenu = $(this).next('ul');
-
 		  if (mainmenu.hasClass('open')) { 
-            
-            document.getElementById('menu').src='images/menu.png';
-
 			mainmenu.slideUp().removeClass('open');
-
 		  }
-
 		  else {
-            document.getElementById('menu').src='images/menu-open.png';
-
 			mainmenu.slideDown().addClass('open');
-
 			if (settings.format === "dropdown") {
-
 			  mainmenu.find('ul').slideDown();
-
 			}
-
 		  }
-
 		});
 
 		

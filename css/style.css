@@ -42,8 +42,8 @@ html {
 
 }
 
-header[role="header"] h1 > .logo{max-width: 100%; font-family: Galada; color: black;}
-footer[role="footer"] > h1 .logo{max-width: 100%; font-family: Galada; color: black;}
+header[role="header"] h1 > .logo{max-width: 100%; font-family: Crimson Text; color: black; font-weight: 800;}
+footer[role="footer"] > h1 .logo{max-width: 100%; font-family: Crimson Text; color: white; font-weight: 800;}
 
 *, *:before, *:after {
 
@@ -159,15 +159,15 @@ a {
 
 a:focus, img:focus, button:focus, .btn:focus {outline: none;}
 
-::-moz-selection {background-color:#fb5353;color:#fff;text-shadow:none;}
+::-moz-selection {background-color:black;color:#fff;text-shadow:none;}
 
-::selection {background-color: #fb5353;color: #fff;text-shadow: none;}
+::selection {background-color: black;color: #fff;text-shadow: none;}
 
 @font-face {font-family: 'Rosario', sans-serif;}
 
 /*===== Header ===*/
 
-header[role="header"]{ padding-top:80px; padding-bottom:39px}
+header[role="header"]{ padding-top:80px; padding-bottom:50px}
 
 header[role="header"] h1{ padding:0; margin:0}
 
@@ -177,15 +177,15 @@ header[role="header"] nav{ padding-top:10px;transition-delay: 0s;
 
 transition-duration: 0.6s;transition-property: all;transition-timing-function: ease;}
 
-header[role="header"] nav ul{ display:none; position: fixed; z-index:60; text-align:center; width:100%; height:100%; top:0; left:0; right:0; background-color:rgba(255,255,255,0.8); padding:0; margin:0; padding-top:199px;}
+header[role="header"] nav ul{ display:none; position: fixed; z-index:100; text-align:center; width:100%; height:100%; top:0; left:0; right:0; background-color:rgba(255,255,255,0.8); padding:0; margin:0; padding-top:199px;}
 
 header[role="header"] nav ul > li{ font-weight:800; font-size:42px; display:block}
 
 header[role="header"] nav ul > li > a{ display:block; line-height:72px; color:#404040}
 
-header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-active a{ text-decoration:none; color:#fb5353}
+header[role="header"] nav ul > li:hover a,header[role="header"] nav ul > li.nav-active a{ text-decoration:none; color:#ff416B}
 
-header[role="header"] nav #menu-button {width: 31px;font-size: 0;float: right;height: 19px;position: relative; z-index:70;
+header[role="header"] nav #menu-button {width: 31px;font-size: 0;float: right;height: 19px;position: relative; z-index:110;
 
 -webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);-webkit-transition: .5s ease-in-out;-moz-transition: .5s ease-in-out;-o-transition: .5s ease-in-out;transition: .5s ease-in-out;cursor: pointer;}
 
@@ -217,50 +217,54 @@ header[role="header"] nav #menu-button.open span:nth-child(3) {top: 10px;
 
 /*===== main ===*/
 
-main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { padding-bottom:90px}
+main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { padding-bottom:30px}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main-inner-wrapper"] article[role="pge-title-content"]{ }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ padding-bottom:19px; padding-top:43px}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:40px; line-height:53px; color:black; font-family: 'Rosario', sans-serif; font-weight: bold;}
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:40px; line-height:48px; color:black; font-family: 'Open Sans', sans-serif; font-weight: bold;}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:64px; color:#ff416B; padding-bottom: 3px; font-family: 'Rosario', sans-serif; font-weight: bold;}
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:60px; color:#ff416B; padding-bottom: 3px; font-family: 'Chivo', sans-serif; font-weight: bold;}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"]  p{ font-size:24px; line-height:39px; color:#4A4A4A; font-family: 'Rosario', sans-serif;}
+main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"]  p{ font-size:24px; line-height:35px; color:black; font-family: 'Open Sans', sans-serif;}
 
 #fun-facts {padding-left: 15px; font-size: 30px; color: #FF416B; font-weight: bold;}
 .fun-fact {padding-left: 15px;}
 
 /*===== footer ===*/
 
-footer[role="footer"]{ background-color:#FFF; padding-top:100px; padding-bottom:77px; text-align: center;}
+footer[role="footer"]{ background-color:black; padding-top:50px; padding-bottom:20px; text-align: center;}
 
 footer[role="footer"] > h1 a{ margin:0 auto; display:block; max-width:66px;}
 
-footer[role="footer"] nav{ padding-top:37px; padding-bottom:43px}
+footer[role="footer"] nav{ padding-top:15px; padding-bottom:25px}
 
 footer[role="footer"] nav > ul{ text-align:center; padding:0; margin:0}
 
-footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:uppercase; font-size:15px; margin:0 13px}
+footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:uppercase; font-size:15px; margin:0 5px}
 
-footer[role="footer"] nav > ul > li > a{ color:#9d9d9d}
+footer[role="footer"] nav > ul > li > a{ color:white}
 
-footer[role="footer"] nav > ul > li:hover a{ text-decoration:none; color:#fb5353}
+footer[role="footer"] nav > ul > li:hover a{ text-decoration:none; color:#ff416b}
 
 footer[role="footer"] ul[role="social-icons"]{ padding:0; margin:0; text-align:center; padding-bottom:40px;}
 
 footer[role="footer"] ul[role="social-icons"] > li{ display: inline-block; margin:0 6.5px}
 
-footer[role="footer"] ul[role="social-icons"] > li > a{ display:block; width:42px; height:42px; background-color:#bbbbbb; color:#FFF; line-height:42px; font-size:20px; border-radius:100%; text-align:center}
+footer[role="footer"] ul[role="social-icons"] > li > a{ display:inline; width:42px; height:42px; color:white; line-height:42px; font-size:20px; border-radius:100%; text-align:center}
 
-footer[role="footer"] ul[role="social-icons"] > li:hover a{ background-color:#fb5353}
+a.logo:hover {
+    text-decoration: none;
+    color: #FF416B !important; 
+}
+footer[role="footer"] ul[role="social-icons"] > li:hover a{ color:#FF416B;}
 
-footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:12px; line-height:13px; color:#9c9c9c}
+footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:12px; line-height:13px; color:white}
 
 /*===== About ===*/
 
-main[role="main-inner-wrapper"] .about-content{ background-color:#fb5353; padding-top:57px; padding-left:70px; padding-right:67px; padding-bottom:58px}
+main[role="main-inner-wrapper"] .about-content{ background-color:#ff416b; padding-top:57px; padding-left:70px; padding-right:67px; padding-bottom:58px}
 
 main[role="main-inner-wrapper"] .about-content p{ font-size:17px; line-height:30px; color:#FFF; padding-bottom:20px}
 

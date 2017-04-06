@@ -52,7 +52,7 @@
 
 	padding:0;
 
-	color: #000;
+	color: #2E2E2E;
 
 	font-size: 1.25em;
 
@@ -96,14 +96,16 @@
 }
 
 .grid figure figcaption > h2 {
-    font-family: 'Rosario', sans-serif; 
+    font-family: 'Open Sans', sans-serif; 
     font-weight: bold;
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .grid figure figcaption > p {
-    font-family: 'Rosario', sans-serif; 
-    font-size: 24px;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 27px;
 }
 
 .grid figure figcaption > h2 {
@@ -119,23 +121,23 @@
 }
 
 .grid figure figcaption#first-image h2{
-    margin-top: 65%;
+    margin-top: 55%;
 }
 
 .grid figure figcaption#second-image h2{
-    margin-top: 90%;
+    margin-top: 70%;
 }
 
 .grid figure figcaption#third-image h2{
-    margin-top: 40%;
+    margin-top: 50%;
 }
 
 .grid figure figcaption#fourth-image h2{
-    margin-top: 35%;
+    margin-top: 80%;
 }
 
 .grid figure figcaption#fifth-image h2{
-    margin-top: 65%;
+    margin-top: 70%;
 }
 
 .grid figure figcaption header a{}
@@ -194,7 +196,7 @@
 
 	font-weight:400; 
     
-    color:#000;
+    color:black;
 
 }
 
