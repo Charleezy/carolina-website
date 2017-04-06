@@ -229,8 +229,8 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"]  p{ font-size:24px; line-height:35px; color:black; font-family: 'Open Sans', sans-serif;}
 
-#fun-facts {padding-left: 15px; font-size: 30px; color: #FF416B; font-weight: bold;}
-.fun-fact {padding-left: 15px;}
+#fun-facts {margin-top: 2em; display: block; font-size: 30px; color: #FF416B; font-weight: bold;}
+.fun-fact {}
 
 section.col-xs-12.col-sm-6.col-md-6.col-lg-6.grid { margin-bottom: 20px;}
 
