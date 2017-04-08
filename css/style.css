@@ -225,7 +225,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[rol
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:40px; line-height:48px; color:black; font-family: 'Open Sans', sans-serif; font-weight: bold;}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:60px; color:#ff416B; padding-bottom: 3px; font-family: 'Chivo', sans-serif; font-weight: bold;}
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size:60px; color:#ff416B; padding-bottom: 13px; font-family: 'Chivo', sans-serif; font-weight: bold;}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"]  p{ font-size:24px; line-height:35px; color:black; font-family: 'Open Sans', sans-serif;}
 
@@ -315,13 +315,15 @@ div.contat-from-wrapper > p {margin-bottom: 100px; font-family: 'Open Sans', san
 
 i.fa.fa-envelope-o.contact-icon, i.fa.fa-map-marker.contact-icon {float: left; font-size:30px; margin-bottom: 10px; }
 
-p#email-text, p#location-text{margin-left:40px; font-size: 30px; color: black; font-weight: normal;}
+p#email-text, p#location-text{position: relative; padding-left: 40px; font-size: 30px; color: black; font-weight: normal;}
+p#email-text:after{ content: '\f003'; font-family: fontAwesome; position: absolute; left: 0; top: 3px;}
+p#location-text:after{ content: '\f124'; font-family: fontAwesome; position: absolute; left: 0; top: 3px;}
 
 article[role="pge-title-content"].contact-header{ padding-bottom:20px}
 
 article[role="pge-title-content"].contact-header p a{ color:#343434; padding-right:34px}
 
-article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-decoration:none}
+article[role="pge-title-content"].contact-header p a:hover{ color:#fb5353; text-decoration:none}
 
 .contact-wrapper {width: 100%;margin: 0 auto;height:200px;}
 
