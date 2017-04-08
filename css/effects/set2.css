@@ -316,7 +316,7 @@ figure.effect-oscar figcaption::before{
 
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 
-	transition: opacity 0.35s, transform 0.35s;
+	transition: opacity 1s, transform 1s;
 
 	-webkit-transform: scale(0);
 
