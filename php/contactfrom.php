@@ -154,9 +154,9 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 	echo "<div id='success_page'>";
 
-	echo "<h3 class='succes_message'>Email Sent Successfully.</h3>";
+	echo "<h3 class='succes_message'>Email sent successfully.</h3>";
 
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
+	echo "<p>Thank you <strong>$name</strong>, for your message. I will get back to you shortly!</p>";
 
 	echo "</div>";
 

@@ -76,23 +76,23 @@
 }
 
 .grid figure figcaption#first-image > p.hover-text {
-	margin-top: 40%;
+	margin-top: 35%;
 }
 
 .grid figure figcaption#second-image > p.hover-text {
-	margin-top: 55%;
-}
-
-.grid figure figcaption#third-image > p.hover-text {
-	margin-top: 25%;
-}
-
-.grid figure figcaption#fourth-image > p.hover-text {
 	margin-top: 40%;
 }
 
+.grid figure figcaption#third-image > p.hover-text {
+	margin-top: 30%;
+}
+
+.grid figure figcaption#fourth-image > p.hover-text {
+	margin-top: 45%;
+}
+
 .grid figure figcaption#fifth-image > p.hover-text {
-	margin-top: 25%;
+	margin-top: 40%;
 }
 
 .grid figure figcaption > h2 {
