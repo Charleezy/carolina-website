@@ -30,8 +30,8 @@
 	header[role="header"] nav ul > li > a{ line-height:55px}
 	main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main-inner-wrapper"] article[role="pge-title-content"]{ padding-left:0}
 	main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ padding-top:10px}
-	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:47px}
-	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ font-size:60px;}
+	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:30px}
+	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ font-size:30px;}
 	main[role="main-home-wrapper"] article{ padding-bottom:30px}
 	main[role="main-home-wrapper"] article p br{ display:none}
 	footer[role="footer"]{ padding:40px 0}
