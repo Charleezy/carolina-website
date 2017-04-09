@@ -112,6 +112,15 @@
     margin-top: 2.5%;
 }
 
+@media (max-width: 767px){
+    .grid figure figcaption > h2 {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 2%;
+    width: 90%;
+    }
+}
+
 .grid figure figcaption:hover > p.hover-text{
     display: block;
 }
@@ -412,6 +421,6 @@ figure.effect-oscar:hover img {
 
 	figure.effect-oscar h2{ font-size:15px;}
 
-	figure.effect-oscar p{ font-size:13px;  padding:2%; display:block; width:90%; margin:0 auto;}
+	figure.effect-oscar p{ font-size:13px;  padding:0 2%; display:block; width:90%; margin:0 auto;}
 
 }
